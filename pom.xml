@@ -9,12 +9,6 @@
 		<maven.compiler.target>1.8</maven.compiler.target>
 	</properties>
 	
-	<repositories>
-  <repository>
-    <id>my-local-repo</id>
-    <url>file://${project.basedir}/my-repo</url>
-  </repository>
-</repositories>
 
 <dependencies>
 	
