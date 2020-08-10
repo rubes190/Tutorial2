@@ -3,4 +3,26 @@
   <groupId>nz.ac.massey.cs.251</groupId>
   <artifactId>Maven_Tutorial</artifactId>
   <version>1.0.0</version>
+  
+  	<properties>
+		<maven.compiler.source>1.8</maven.compiler.source>
+		<maven.compiler.target>1.8</maven.compiler.target>
+	</properties>
+	
+	<repositories>
+  <repository>
+    <id>my-local-repo</id>
+    <url>file://${project.basedir}/my-repo</url>
+  </repository>
+</repositories>
+
+<dependencies>
+	
+<dependency>
+    <groupId>com.google.guava</groupId>
+    <artifactId>guava</artifactId>
+    <version>29.0-jre</version>
+</dependency>
+	</dependencies>	
+	
 </project>
